@@ -1,4 +1,4 @@
-# chat-gpt-ui
+# my-chat-app
 
 ## Project setup
 ```
