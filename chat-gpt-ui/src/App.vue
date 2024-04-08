@@ -38,7 +38,13 @@ const predefinedResponses = [
 export default {
   data() {
     return {
-      messages: [],
+      messages: [
+        {
+          id: 0,
+          text: "Hello! I'm your smart assistant. Tell me what you need.",
+          user: false // Indicating this message is from the bot
+        }
+      ],
       newMessage: '',
       isLoading: false, // Track loading state
     };
